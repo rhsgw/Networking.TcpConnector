@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Networking.TcpConnector</AssemblyName>
+    <RootNamespace>Networking</RootNamespace>
+    <Version>1.0.0-preview</Version>
+    <PackageId>rhsgw.Networking.TcpConnector</PackageId>
+    <Authors>rhsgw</Authors>
+    <Company />
+    <Description>Wrapper class of TcpClient, that try to keep connection to remote host.</Description>
+    <Copyright>(C) 2020 rhsgw</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/rhsgw/Networking.TcpConnector</PackageProjectUrl>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\rhase\source\repos\rhsgw\Networking.TcpConnector\TcpConnector\TcpConnector\Networking.TcpConnector.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
