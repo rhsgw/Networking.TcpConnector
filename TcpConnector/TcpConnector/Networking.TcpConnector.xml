@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Networking.TcpConnector</name>
+    </assembly>
+    <members>
+        <member name="T:Networking.IPEndPointExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Networking.IPEndPointExtensions.CreateConnectorTo(System.Net.IPEndPoint,System.Net.IPEndPoint)">
+            <summary>
+            
+            </summary>
+            <param name="local"></param>
+            <param name="remote"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Networking.IPEndPointExtensions.CreateConnectorTo(System.Net.IPEndPoint,System.Net.IPEndPoint,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="local"></param>
+            <param name="remote"></param>
+            <param name="secondsToKeepAlive"></param>
+            <param name="keepAliveRetryCount"></param>
+            <param name="secondsToRetry"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Networking.TcpConnector">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Networking.TcpConnector.Connected">
+            <summary>
+            リモートホストとの接続が確立されているときは true
+            </summary>
+        </member>
+        <member name="M:Networking.TcpConnector.ReadAsync(System.Threading.CancellationToken)">
+            <summary>
+            NetworkStream から読み取り可能なデータを非同期に読み取る
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Networking.TcpConnector.WriteAsync(System.ReadOnlyMemory{System.Byte},System.Threading.CancellationToken)">
+            <summary>
+            NetworkStream へデータを非同期に書き込む
+            </summary>
+            <param name="buffer"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Networking.TcpConnector.Dispose">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:Networking.TcpConnector.PropertyChanged">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
